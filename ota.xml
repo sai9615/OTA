@@ -22,7 +22,7 @@
   <CheckMD5>a381bfa8117aa0a3914a36e18211652e</CheckMD5>
   <!-- The filesize of your ROM -->
   <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
-  <FileSize type="integer">420147739</FileSize>
+  <FileSize type="integer">276051533</FileSize>
   <!-- Developer or Team name. You can put anything here, even a couple of names -->
   <!-- OPTIONAL: Enter <Developer nil="true" /> to hide this -->
   <Developer>sai milind</Developer>
