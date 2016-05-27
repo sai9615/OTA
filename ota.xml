@@ -47,7 +47,7 @@
 -Fix missed calls notifications
 -HWkeys: Add Now on Tap
 -lockscreen statusbar clock option
--shade transparency options: QS, QS header, & power/reboot menu
+-shade transparency options: QS, QS header, and power/reboot menu
 -Disable Quick Settings on secure lockscreen
 -Increasing Ring: Fix NPE
 -Speed up notification panel pulldown animation when called externally
