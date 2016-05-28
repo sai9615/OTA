@@ -35,5 +35,5 @@ device_name=ro.candy.device
 #
 version_source=ro.modversion
 version_delimiter=-
-version_position=3
+version_position=4
 version_format=MMdd
