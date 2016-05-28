@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
-        <A0001>
+        <i9082>
             <Filename>CandysSiX-i9082-6.0.1-20160528</Filename>
             <RomUrl
                 id="rom"
@@ -19,6 +19,6 @@
                 id="xda"
                 title="XDA Thread Link"
                 description="Visit CandySix I9082 thread">http://forum.xda-developers.com/galaxy-grand-duos/development/rom-candysix-t3386845</XDAUrl>
-	</A0001>
+	</i9082>
     </Stable>
 </SlimOTA>
