@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <i9082>
-            <Filename>CandysSiX-i9082-6.0.1-20160528</Filename>
+            <Filename>CandySiX-i9082-6.0.1-20160528</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download latest CandySiX builds"></RomUrl>
+                description="Download latest CandySiX builds">https://www.androidfilehost.com/?fid=24566454284190787</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
