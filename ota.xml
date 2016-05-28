@@ -1,57 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ROM>
-  <!-- Your ROM Name -->
-  <RomName>CANDYSIX</RomName>
-  <VersionName>ROM VERSION</VersionName>
-  <!-- Your ROM version. MUST be incrementally larger than previous versions -->
-  <!-- Do NOT use letters in your version number. Integers only -->
-  <!-- Previous version will be read from the build.prop -->
-  <VersionNumber type="integer">20160527</VersionNumber>
-  <!-- Linking to your files -->
-    <!-- <DirectUrl><![CDATA[http://www.example.com?file=file.zip?somethingelse&anotherthing]]></DirectUrl> -->
-    <!-- Use the above format if your URL has special characters in then, like an (&) ampersand -->
-    <!-- Enter <DirectUrl nil="true /> or <HttpUrl nil="true /> to indicate you won't be using a type of URL -->
-    <!-- HTTP link will open a web page -->
-    <!-- Direct Link overrides HTTP link -->
-  <DirectUrl>https://www.androidfilehost.com/?fid=24566454284190295</DirectUrl>
-  <HttpUrl>HTTP WEBSITE LINK HERE</HttpUrl>
-  <!-- What version are you issuing? -->
-  <Android>6.0.1</Android>
-  <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
-  <!-- OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking -->
-  <CheckMD5>a381bfa8117aa0a3914a36e18211652e</CheckMD5>
-  <!-- The filesize of your ROM -->
-  <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
-  <FileSize type="integer">276051533</FileSize>
-  <!-- Developer or Team name. You can put anything here, even a couple of names -->
-  <!-- OPTIONAL: Enter <Developer nil="true" /> to hide this -->
-  <Developer>sai milind</Developer>
-  <!-- Your ROM or Developer Website. Can be a personal site or your XDA/forum thread -->
-  <!-- OPTIONAL: Enter <Website nil="true" /> to hide this -->
-  <WebsiteURL>http://forum.xda-developers.com/galaxy-grand-duos/development/rom-candysix-t3386845</WebsiteURL>
-  <!-- Your Donate URL -->
-  <!-- OPTIONAL: Enter <DonateURL nil="true" /> to hide this -->
-  <DonateURL>DONATE URL HERE</DonateURL="true">
-  <!-- Put the changelog here... Use Markdown to format it -->
-  <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
-  <Changelog> 
-  
-  V2.3
-
--app circle sidebar
--Lockscreen rotation option
--flashlight notification reminder
--merged android-6.0.1_r42
--Voicemail Notifications: Make dismissable
--Dashboard Text Size
--Fix missed calls notifications
--HWkeys: Add Now on Tap
--lockscreen statusbar clock option
--shade transparency options: QS, QS header, and power/reboot menu
--Disable Quick Settings on secure lockscreen
--Increasing Ring: Fix NPE
--Speed up notification panel pulldown animation when called externally
--Transparency Settings: QS background, Power menu, Statusbar header
--Hide quick settings on a secure lockscreen switch
--Configurable lockscreen statusbar clock  </Changelog>
-</ROM>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <A0001>
+            <Filename>SlimSaber-bacon-5.0.2-20150507</Filename>
+            <RomUrl
+                id="rom"
+                title="Rom"
+                description="Download SlimSaber builds">https://www.androidfilehost.com/?w=files&amp;flid=21887</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="Download SlimSaber changelogs">https://www.androidfilehost.com/?w=files&amp;flid=21888</ChangelogUrl>
+            <GappsUrl
+                id="gapps"
+                title="Gapps"
+                description="Download latest SlimGapps">http://209.95.39.164/Gapps/Lollipop</GappsUrl>
+            <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Visit SlimSaber bacon thread">http://forum.xda-developers.com/oneplus-one/development/rom-slimsaber-bacon-t2858033</XDAUrl>
+	</A0001>
+    </Stable>
+</SlimOTA>
