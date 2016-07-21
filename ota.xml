@@ -2,15 +2,15 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <i9082>
-            <Filename>CandySiX-i9082-6.0.1-20160528</Filename>
+            <Filename> Tipsy-i9082-Geuze-v4.3-20160721</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download latest CandySiX builds">https://www.androidfilehost.com/?fid=24566454284190787</RomUrl>
+                description="Download latest Tipsy os build"></RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="Show me CandySix changelogs">https://docs.google.com/document/d/1DMCYosPotf8Q0RmtNbpNipr2ib0u2keBICUIX-J6m6k/edit</ChangelogUrl>
+                description="Show me CandySix changelogs"></ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Gapps"
@@ -18,7 +18,7 @@
             <XDAUrl
                 id="xda"
                 title="XDA Thread Link"
-                description="Visit CandySix I9082 thread">http://forum.xda-developers.com/galaxy-grand-duos/development/rom-candysix-t3386845</XDAUrl>
+                description="Visit CandySix I9082 thread"></XDAUrl>
 	</i9082>
     </Stable>
 </SlimOTA>
