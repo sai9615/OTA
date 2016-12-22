@@ -13,7 +13,7 @@
     <!-- Enter <DirectUrl nil="true /> or <HttpUrl nil="true /> to indicate you won't be using a type of URL -->
     <!-- HTTP link will open a web page -->
     <!-- Direct Link overrides HTTP link -->
-  <DirectUrl><![CDATA[www.androidfilehost.com/?fid=745425885120692476]]></DirectUrl>
+  <DirectUrl>www.androidfilehost.com/?fid=745425885120692476</DirectUrl>
   <HttpUrl nil="true" />
   <!-- What version are you issuing? -->
   <Android>7.1.1</Android>
@@ -34,7 +34,7 @@
   <DonateURL nil="true" />
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
-  <Changelog>### Changelog 20150105
+  <Changelog>### Changelog 20161209
 * BUMP TO VERSION 1.6
 * UPDATED WITH CM DEVICE TREE AND KERNEL.
 </Changelog>
